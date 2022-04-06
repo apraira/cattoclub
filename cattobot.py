@@ -17,7 +17,7 @@ from pprint import pprint
 USER = environ['USER']
 PASSWORD = environ['PASSWORD']
 
-connection_string = "mongodb+srv://" + USER + ":" PASSWORD + "@cluster0.6wv5r.mongodb.net/myFirstDatabase?ssl=true&ssl_cert_reqs=CERT_NONE"
+connection_string = "mongodb+srv://" + USER + ":" + PASSWORD + "@cluster0.6wv5r.mongodb.net/myFirstDatabase?ssl=true&ssl_cert_reqs=CERT_NONE"
 client = pymongo.MongoClient(connection_string)
 db = client.cattology
 people = db.people
