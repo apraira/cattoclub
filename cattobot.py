@@ -1,4 +1,5 @@
 import pymongo
+from os import environ
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
