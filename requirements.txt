@@ -1,4 +1,4 @@
-Pillow==8.1.2
+Pillow==9.0.1
 pymongo==4.0.2
 pyparsing==2.4.6
 pyrsistent==0.15.7
