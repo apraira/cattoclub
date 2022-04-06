@@ -13,7 +13,7 @@ import json
 
 # pprint library is used to make the output look more pretty
 from pprint import pprint
-client = pymongo.MongoClient("mongodb+srv://catto:ayamgeprek@cluster0.6wv5r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb://catto:ayamgeprek@cluster0.6wv5r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client.cattology
 people = db.people
 
