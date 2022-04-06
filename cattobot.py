@@ -50,7 +50,7 @@ class IDPrinter(tweepy.Stream):
         status_id = a['id']
         
         
-        if in_rep == '1510178530596102149':
+        if in_rep == '1511563188894019585':
             x = people.find_one({ "username" : screen_name })
             
             if x == None:
