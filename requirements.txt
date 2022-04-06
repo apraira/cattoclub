@@ -7,3 +7,5 @@ tweepy @ git+https://github.com/tweepy/tweepy.git@e2cdc5eeabd87a2eb2394558eda1f1
 tzlocal==2.1
 uritemplate==3.0.1
 urllib3==1.26.3
+numpy>=1.1
+matplotlib==3.5.0
