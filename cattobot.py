@@ -204,7 +204,7 @@ class IDPrinter(tweepy.Stream):
                     print("a catto club image to " + a["user"]["screen_name"] + "posted")
             
             else:
-                x = z
+                
 
                 title_font = ImageFont.truetype("./asset/Montserrat-Bold.ttf", 35)
                 poin_font = ImageFont.truetype("./asset/Montserrat-Bold.ttf", 30)
